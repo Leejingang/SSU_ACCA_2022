@@ -1,0 +1,14 @@
+<launch>    
+  <include file="$(find ublox_gps)/launch/ublox_device.launch">
+
+  </include>   
+
+  <include file="$(find ntrip_ros)/launch/ntrip_ros.launch">
+
+  </include>   
+
+  <include file="$(find xsens_mti_driver)/launch/xsens_mti_node.launch">
+
+  </include>  
+</launch>
+
